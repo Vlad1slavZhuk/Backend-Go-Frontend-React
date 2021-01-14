@@ -45,7 +45,7 @@ A simple example of how to consume a `RESTful API` in `React`
     3. Open link:
 
         ```properties
-        vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ cd client
+        vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ cd react-client
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/client$ make run
         ```
 ## Screenshots:
