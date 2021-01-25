@@ -21,13 +21,13 @@ A simple example of how to consume a `RESTful API` in `React`
 
 1. Clone my project:  
     
-    ```properties
+    ```
     git clone ...
     ```
 2. Start make's command:  
     1. Start DB `PostgreSQL` and open bash:
 
-        ```properties
+        ```
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ make run-db 
         docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres:alpine
         8dcb4c1d2b24a8a47434b740cb627aeffb323fbc53264157f7c6a6fb7df4ef6b
@@ -37,7 +37,7 @@ A simple example of how to consume a `RESTful API` in `React`
         ***Note:** use command `psql -U postgres` to login.*
     2. Start RESTful API:
         
-        ```properties
+        ```
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ make run
         go run go-server/cmd/main.go
         2021/01/14 16:47:21 Connected to Postgres database!
@@ -47,15 +47,11 @@ A simple example of how to consume a `RESTful API` in `React`
         ```
     3. Open link:
 
-        ```properties
+        ```
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ cd react-client
-<<<<<<< HEAD
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/client$ npm install
         ...
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/client$ npm start
-=======
-        vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/react-client$ make run
->>>>>>> 627c4f3ad145e0771ea772d4f992769a50e12f37
         ```
 ## Screenshots:
 
