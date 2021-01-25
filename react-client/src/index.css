@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.cars-body-adding-button {
+  margin: 30px 0;
+}
+
+.cars-body-table {
+  margin-right: 10px;
+}

@@ -1,5 +1,5 @@
 run:
-	go run go-server/main.go
+	go run go-server/cmd/main.go
 
 run-db:
 	docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=postgres -d postgres:alpine

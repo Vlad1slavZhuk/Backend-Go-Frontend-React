@@ -36,7 +36,7 @@ A simple example of how to consume a `RESTful API` in `React`
         
         ```properties
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ make run
-        go run go-server/main.go
+        go run go-server/cmd/main.go
         2021/01/14 16:47:21 Connected to Postgres database!
         2021/01/14 16:47:21 Migrate success!
         2021/01/14 16:47:21 Current version of the database:  1
@@ -46,28 +46,5 @@ A simple example of how to consume a `RESTful API` in `React`
 
         ```properties
         vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React$ cd react-client
-        vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/client$ make run
+        vzhuchkov@linux:~/go/src/Backend-Go-Frontend-React/client$ npm start
         ```
-## Screenshots:
-### **Home**:
-
-![image](img/1.png)
-
-### **Create**:
-
-![image](img/2.png)
-
-![image](img/3.png)
-
-![image](img/4.png)
-
-### **Edit**: 
-
-![image](img/5.png)
-
-![image](img/6.png)
-
-
-### **Delete**:
-
-![image](img/7.png)
